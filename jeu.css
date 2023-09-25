@@ -1,0 +1,96 @@
+@font-face {
+    font-family: bebas;
+    src: url(/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+header{
+    text-align: center;
+    background-color: cornflowerblue;
+    border : thin solid black;
+    margin-bottom: 5em;
+    font-family: Helvetica,sans-serif;
+}
+
+#sequence{
+    display: flex;
+    justify-content: center;
+    border : thin solid black;
+    background-color: whitesmoke;
+    margin-bottom: 5em;
+    border-radius: 8px; /* arrondir les bords */
+    min-height: 85.8px;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* Les boutons avec les numéros */
+div button{ 
+    background-color:rgb(233, 233, 237);
+    margin: 0.5em;
+    padding: 2em 2em;
+    border-radius: 12px; /* arrondir les bords */
+}
+
+.run{
+    display: flex;
+    margin: 2em auto; /* espace autour du bouton */
+    background-color: royalblue;
+    color: white;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    font-family: Helvetica,sans-serif;
+    border-radius: 6px; /* arrondir les bords */
+    padding: 12px 16px; /* La taille de l'intérieur */
+}
+
+.hide1{
+    display: none;
+}
+
+.hide2{
+    color: rgb(233, 233, 237);
+}
+
+.right{
+    background-color: green;
+}
+
+.wrong{
+    background-color: red;
+}
+
+#fin{
+    font-size: 5ch;
+    text-align: center;
+}
+
+label {
+    float: left;
+    width: 6vw;
+    margin-bottom: 20px;
+    font-family : bebas;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+p{
+    font-family : bebas;
+    font-size: 4vh;
+    color: darkcyan;
+}
+
+form button{
+    display: flex;
+    margin: auto;
+    color: white;
+    font-family: Helvetica,sans-serif;
+    background-color: royalblue;
+    border-radius: 6px; /* arrondir les bords */ 
+    border: 1px solid rgba(27, 31, 35, .15);
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    cursor: pointer;
+    padding: 10px 20px; /* La taille de l'intérieur */
+}   
